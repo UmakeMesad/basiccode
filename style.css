@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    flex-direction: row;
+    display: grid;
+    grid-template-rows:35fr 5fr 
+}
+.top {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(185, 187, 187);
+
+}
+.text{
+   
+    margin-top:15rem;
+
+}
+.bottom{
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+}
+
